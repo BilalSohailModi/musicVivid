@@ -1,0 +1,587 @@
+
+@media only screen and (min-width:1366px){
+  .custom-column-left-side{ flex: 0 0 20%;  max-width:20%;}
+  .custom-column-right{flex: 0 0 80%;max-width: 83.333333%;}
+}
+@media only screen and (max-width:1440px){
+footer{    padding-top: 14rem;}
+}
+@media only screen and (max-width:1367px){
+footer{    padding-top: 11rem;    background-size: cover;}
+.fan_favourite{    padding: 50px 0px 25px 0px;}
+footer{    padding-top: 15rem;    margin-top: -14.25rem;}
+}
+@media only screen and (max-width:1279px){
+	.home_vote_section_each img{max-width:100%}
+	.container{max-width:95%}
+	nav.navigation>ul>li>a{    margin: 0 1.55rem;}
+	.home_vote_section{    padding-bottom: 80px;}
+	.howitworks{    background-size: 50%;}
+	.homegb_new{    background-size: 100% 700px,100% 1000px;}
+	.howitworks{margin: 40px 0px 20px 0px;}
+	
+}
+@media only screen and (max-width:1150px){
+.menu-box {    padding: 0;}
+nav.navigation>ul>li>a {
+    margin: 0 1rem;
+}
+h1.banner-title{    font-size: 45px;}
+.fan_favourite {
+    padding: 43px 0px 20px 0px;
+}
+.how_competition_work_top .first_section .left_part{    width: 50%;}
+.how_competition_work_top .first_section .left_part img{max-width:100%}
+.how_competition_work_top .container{       width: inherit;    max-width: inherit;}
+.how_competition_work_top .first_section .right_part{    width: 48%;}
+.how_competition_work_top{padding-top: 20px;}
+.how_competition_work_top .second_section .left_part{    width: 50%;}
+.how_competition_work_top .second_section .left_part img{max-width:100%}
+.how_comp_blue{    background-size: cover;    padding: 30px 0px;}
+.blue_flex{    margin-bottom: 20px;}
+.how_comp_bottom .tour_right{    padding-left: 30px;}
+footer{    padding-top: 10rem;    background-size: 100%;}
+.footer-colum:first-child{width:20%}
+.footer-colum:last-child{width:30%}
+.footer-colum h4{    font-size: 16px;}
+}
+
+
+@media screen and (max-width: 1025px) {
+  .container {width: 100%;}
+  .banner-content {width: calc(100% - 20rem);}
+  .banner-image {width: 20rem;}
+  .footer-colum {width: 20%;}
+  .footer-colum:last-child {width: 40%;}
+  .button-block {-webkit-order: 1;-moz-order: 1;-ms-order: 1;-o-order: 1;order: 1;width: 100%;margin-bottom: 2rem;justify-content: center;display: flex;}.menu-box {-webkit-order: 2;-moz-order: 2;-ms-order: 2;-o-order: 2;order: 2;width: 100%;align-self: flex-start;}
+  .header-right {width: 100%;position: fixed;flex-wrap: wrap;background: #655fd9;top: 0;right: 0;bottom: 0;z-index: 2;padding: 4.0625rem 0;right: -100%;-webkit-transition: .2s ease-out;-moz-transition: .2s ease-out;transition: .2s ease-out;display: block;}
+  .header-right.active {right: 0;}
+  nav.navigation>ul {display: block;}
+  nav.navigation>ul>li>a {color: #ffffff;font-size: 2rem;line-height: 4rem; padding:0px 5px}
+  .btn-menu-button {display: inline-block;outline: none;background: transparent;border: none;box-shadow: none;font-size: 1.75rem;padding: 0 2rem;line-height: 1.5rem;margin: 0;}
+  .btn-menu-button-close {padding: 0.5rem 1rem;color: #fff;background: transparent;font-size: 1.25rem;border: 1px solid transparent;border-radius: 0.25rem;right: 1rem;position: absolute;top: 0.9375rem;display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: center;align-items: center;outline: none;box-shadow: none;margin: 0;}
+  .store-button {width: 40%;}
+  .main-banner {padding-bottom: 7.5rem;}
+  h1.banner-title {font-size: 2.5rem;line-height: 2.875rem;}
+  /* profile */
+  .peofile-picture-section {  left: 44%;}
+  .custom-drop-down-menu{ display:none !important;}
+  .artist-sign-up-container { margin-bottom: 100px;}
+  /*Apurba 09/01/2019*/
+  .btn-primary, .btn-default {line-height: 3rem;font-size: 1.5rem;width: auto;text-align: center;border-radius: 2.25rem;padding-left: 4rem;padding-right: 4rem;}
+  header {padding: 0.75rem 0;background: #4e4090;}
+  .logo img {height: 30px;}
+  .homegb_new {    background-size: 100% 600px,100% 1000px;}
+  .footer-colum {    width: 23%;}
+  .footer-colum:last-child {    width: 30%;}
+  .footer-colum:first-child {    width: 21%;}
+  
+}
+@media screen and (max-width: 1023px){
+    .colum-eventes {width: 100%;}
+    .mobile-bg {background: #4e4090;padding: 0 10px;margin: -1rem -1.4375rem 0;}
+    .mobile-bg .btn-transparent{color:#4e4090;background:#fff;border-color:#fff;}
+    .mobile-bg ul.main-search-menu>li>a{padding:5px 15px;}
+    .mobile-bg ul.main-search-menu>li:hover>a, ul.main-search-menu>li.active>a {}
+    .mobile-bg ul.main-search-menu{justify-content: space-around;padding-top: 0;margin-bottom:0;}
+    .mobile-bg ul.main-search-menu>li>a{color:#fff;line-height:initial;}
+    .mobile-search-tab-menu{padding: 15px !important;justify-content: space-around !important;box-shadow: 0px 3px 15px #efeeee;}
+    .mobile-search-tab-menu li a{line-height: inherit !important;text-align:center !important;opacity:0.5;}
+    .mobile-search-tab-menu li a i{display:block;font-size:18px;}
+    ul.serach-tab-menu.mobile-search-tab-menu>li:hover>a, ul.serach-tab-menu.mobile-search-tab-menu>li.active>a {color: #4e3f90;background-color:transparent !important;opacity:1;}
+    .mobile-popular-song li{width:33.33% !important;}
+    ul.popular-songs>li>a>span.image {height: 110px;width: 110px;}
+    ul.popular-songs>li>a>span.name{margin-top:10px;}
+    ul.popular-songs>li>a{padding:10px;}
+    .page-title-header {display: flex;}
+    .alb-page-heading {display: none;}
+	h1.banner-title {font-size: 30px;padding-top: 10px;}
+	.membership_plan_outer{    width:450px;}
+	.fan_favourite_screen_each:after{    bottom: -20px;    left: 0;    width: 100%;}
+	.fan_favourite {    padding: 36px 0px 19px 0px;}
+	.container {    max-width: 100%;}
+	.how_comp_blue .time_div{    margin: 0px 34px;}
+	.how_competition_work_top .first_section .right_part{    padding-left: 10px;}
+	.how_competition_work_top .second_section{    padding-top: 40px;}
+	.how_competition_work_top{    background-size: 871px,100% 650px;}
+	.how_competition_work_top .first_section .right_part{    margin-top: 10px;}
+	.how_comp_bottom .tour_left{    max-width: 35%;}
+	.how_comp_bottom .number_div{    margin-left: 10px;}
+	.how_competition_work_top .first_section .right_part h1{margin-bottom: 20px;}
+	.how_competition_work_top .first_section .right_part ul li{    padding-bottom: 20px;    font-size: 13px;}
+	.how_competition_work_top .second_section .right_part ul li span{font-size: 13px;}
+	.how_comp_blue ul li{    font-size: 13px;}
+	.how_comp_bottom .tour_right ul li{  font-size: 13px;}
+	.how_comp_bottom .tour_right p{ font-size: 13px;}
+	.how_competition_work_top .second_section .right_part{    width: 48%;}
+	.how_competition_work_top .second_section .right_part ul li{    font-size: 15px;}
+	
+
+}
+@media screen and (max-width: 961px) {
+    /*.login-colum {width: 100%;padding: 0 3.125rem !important;text-align: center;}*/
+    .colum-group {justify-content: center;}
+    .btn-join {padding: 0 50px;}
+    .register-left, .register-right {padding: 30px;width: 100%;}
+    .register-left h3.title {width: 100%;}
+    .album-ul li{ width:33.33%;}
+    .peofile-picture-section {  left: 41%;}
+    .album-left {width: 40%;}
+    .album-right {width: 60%;}
+    .album-cover {width: 100%;height: auto;}
+    .fan-new-releases-album-ul li{width:25%;}
+    .profile-page-header{display:block}
+    .profile-dashboard-area.edit{margin-top: 30px;}
+    .analytic-uploaded-listing li {
+        padding: 15px;
+        width: 33.33%;
+    }
+	.membership_plan ul li{    padding-left: 20px;}
+	.membership_plan_outer {    width: 416px;}
+	.home_vote_section_each_content .signup{    line-height: 24px;}
+	
+.home_vote_section  .flexdiv{    flex-wrap: wrap;    max-width: 630px;    margin: auto;    justify-content: space-between;}
+	.home_vote_section_each{    width: 48%;    margin: 10px 0px;}
+	.home_vote_section_each img{    max-width: 100%; height:100%; width:100%}
+	.home_vote_section h3{margin-bottom: 20px;}
+	.fan_favourite .fan_favourite_screen .fan_favourite_screen_each{    margin: 15px 8px;    width: 30%;    max-width: 250px;}
+	.fan_favourite_screen_each:after{left: 12%;}
+	.fan_favourite .fan_favourite_screen{flex-wrap: wrap;justify-content: center;/* overflow: hidden; */}
+	.fan_favourite {    padding: 29px 0px 15px 0px;}
+	.fan_favourite h4{margin-bottom: 0px;}
+	.buttondiv .btn-default{line-height: 24px}
+	.howitworks_flex{min-height: 500px;}
+	.howitworks h4{    margin-bottom: 0;}
+	.howitworks_content_each span.text{    width: 80%;}
+	.how_competition_work_top .first_section .left_part{    width: 45%;}
+	.how_competition_work_top .first_section .right_part{    width: 53%;}
+	.how_competition_work_top .first_section .right_part ul li{    padding-bottom: 12px;}
+	.how_competition_work_top .first_section .right_part h1{    font-size: 20px;}
+	.how_competition_work_top .second_section .left_part{    width: 40%;}
+	.how_competition_work_top .second_section .right_part{    width: 58%;}
+	.blue_img_div{    max-width: 268px;}
+	.how_comp_blue .time_div {    margin: 0px 15px;}
+	.how_comp_blue ul li{padding-bottom: 15px;}
+	.footer-colum:last-child {    width: 100%;    text-align: center;}
+   .footer-colum:first-child {    width: 25%;}
+   .footer_app{display:inline-block;    margin-right: 30px;}
+   .social_link{display:inline-block}
+   .footer-colum {    width: 36%;}
+}
+@media screen and (max-width: 769px) {
+  .footer-colum {width: 50%;}
+  .footer-colum:last-child {width: 100%;}
+  footer:after {top: 7.25rem;}
+  footer {margin-top: -4.25rem;padding-top: 7rem;position: relative;z-index: 3;}
+  footer:before {top: 03.5rem;}
+  nav.footer-bottom-menu>ul {display: block;text-align: center;}
+  nav.footer-bottom-menu>ul>li {display: inline-block;}
+  .banner-image {-webkit-order: 2;-moz-order: 1;-ms-order: 1;-o-order: 1;order: 2;width: 100%;text-align: center;margin-left: -5px;}
+  .banner-content {-webkit-order: 1;-moz-order: 2;-ms-order: 2;-o-order: 2;order: 1;width: 100%;text-align: center;top: 0;padding: 5% 10%;}
+  nav.footer-social>ul {justify-content: center;}
+  .logo {width: 50%;margin-left: 25%;}
+  .logo.inner-page {margin-left: 0;width: auto;}
+  h1.banner-title:before {width: 3.85625rem;}
+  .logo img {max-width: 100%;}
+  .login-colum {width: 100%;padding: 0 3.125rem !important;text-align: center;}
+  .login-colum img {margin-top: -2rem;}
+  .login-section .container {padding: 0 20px;}
+  label.custom-checkbox {margin-bottom: 15px;}
+  .register-left, .register-right {padding: 60px;width: 100%;}
+  .register-left {-webkit-order: 2;-moz-order: 2;-ms-order: 2;-o-order: 2;order: 2;}
+  .register-right p.content {margin: 15px 0 30px;line-height: 16px;}
+  /* profile */
+  .body-wraper {  padding-bottom: 5.25rem;}
+  .vid-colum {width: 75%;}
+  ul.album-list>li {width: 50%;}
+  ul.popular-songs>li {width: 50%;}
+  ul.main-search-menu>li, ul.serach-tab-menu>li {padding: 0;}
+  ul.main-search-menu>li>a {font-size: 1rem;}
+  ul.serach-tab-menu>li>a {font-size: 0.85rem;}
+  .btn-menu-button-close-desk {right: 0.2rem;top: 0.5rem;}
+  .banner-content .download_apps_button {    text-align: center;    margin-top: 30px;}
+  h1.banner-title{    margin-bottom: 5px;}
+  .footer-colum:first-child{    width: 26%;}
+  .footer-colum {    width: 36%;}
+  
+}
+@media only screen and (max-width:767px){
+    .display-flex { display: block;}
+    .btn-side {padding-left: 0;text-align: left;margin-top: 18px;}
+    .dash-board-btn {margin-left: 0;margin-right: 15px;}
+    .navigation li.only-mobile-menu{display:block;}
+    .hidden-small-device{display:none;}
+    .otp-form-wraper {padding: 74px 110px 150px 110px;}
+    .artist-sign-up-container {margin-bottom: 0px;}
+    .colum-eventes {width: 50%;}
+    .vid-row {flex-wrap: wrap;justify-content: center;}
+    .vid-colum {width: 72%;}
+    .album-left {width: 30%;}
+    .album-right {width: 70%;}
+    .album-cover {width: 100%;height: auto;}
+    .album-container {width: 90%;}
+    .fan-profile-tab {width: 280px;}
+    ul.popular-songs>li {width: 33.33% !important;}
+    .profile-dashboard-area.edit {padding-top: 1rem;}
+    .profile-right-section-edit.songs {margin: 0 -15px;}
+    .search_history-box {height: calc(100vh - 100px);overflow: auto;}
+    .mobile-search-tab-menu {margin: 0 -23px !important;}
+    .body-wraper.no-footer, .box-model-wraper.edit {padding-bottom: 0;}
+	.header-wraper{padding: 10px 0px;}
+	
+	.filds-group .fild-icon-right{    height: 35px;}
+	.filds-group .fild-icon-right span.message{    top: calc(100% - 5px);right: 0;    left: auto;line-height: 14px;}
+	.filds-group .fild-icon-right span.message:after {
+    border-bottom: 0.5125rem solid #ff605f;
+    border-right: 0.3125rem solid transparent;
+    border-left: 0.3125rem solid transparent;
+    content: "";
+    position: absolute;
+	left: 276px;
+	top:-10px;
+}
+
+.filds-group.mb-20{margin-bottom:25px;}
+ span.text-danger{width:300px; display:block;    padding: 4px 10px;}
+ span.text-danger:after {
+    border-bottom: 0.5125rem solid #ff605f;
+    border-right: 0.3125rem solid transparent;
+    border-left: 0.3125rem solid transparent;
+    content: "";
+    position: absolute;
+	left: 40px;
+	top:-10px;
+}
+.text-danger2{    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%,0);}
+.sign_unsign-div>p{margin-bottom:0px}
+.analytic-uploaded-listing{
+    margin:20px 0;
+}
+.home_vote_section h3{font-size: 20px;    line-height: 29px;}
+.fan_favourite .fan_favourite_screen .fan_favourite_screen_each{    margin: 10px 4px;    width: 31%;}
+.fan_favourite {    padding: 18px 0px 9px 0px;}
+.howitworks{    background: transparent;}
+.howitworks_content_each{    margin-bottom: 25px;}
+.howitworks_flex {    min-height: initial;    margin-top: 20px;}
+.howitworks_content{    margin-left: 0;}
+.membership_plan_outer {width: 450px;margin: auto;float: none;max-width: 100%;}
+.membership_plan ul li {    padding: 6px;}
+.membership_plan p{font-size: 15px;}
+.member_section .btn-default{    line-height: 24px;padding-left: 2.5rem;    padding-right: 2.5rem;}
+.membership_plan{    background-size: 100%;    padding: 140px 20px 30px 10px;}
+.membership_plan ul{margin-bottom:20px}
+.member_section p.rightdidep{    font-size: 17px;}
+.main-banner {    padding-bottom: 3.5rem;}
+.fan_favourite_inner{    padding: 25px 0px;}
+.how_competition_work_top .first_section {    display: flex;    flex-wrap: wrap;    flex-direction: column-reverse;    padding: 0px 5%;}
+.how_competition_work_top .first_section .left_part {    width: 100%;}
+.how_competition_work_top .first_section .right_part{width: 100%;padding: 0;}
+.how_competition_work_top .second_section{   display: flex;    flex-wrap: wrap;    flex-direction: column-reverse;    padding: 0px 5%;}
+.how_competition_work_top .second_section .left_part {    width: 100%;}
+.how_competition_work_top .second_section .right_part{width: 100%;padding: 0;padding-top: 20px;}
+.blue_flex{    flex-wrap: wrap;}
+.how_comp_blue .blue_right_text{    width: 100%;}
+.how_comp_blue .blue_right_text ul li {
+    background: none;
+    width: auto;
+    display: inline-block;
+}
+.how_comp_bottom .number_div ul li{display:inline-block;margin-right: 50px;}
+.how_comp_bottom .number_div ul li:after{    left: 111%;    top: -15px;    z-index: -1;    transform: rotate(-90deg);}
+.how_comp_bottom .number_div{padding:0;display:flex;width: 100%;justify-content: center;}
+.how_comp_bottom .tour_left{max-width: 100%;text-align: center;width: 100%;}
+.how_comp_bottom .tour_right{width:100%;max-width: 100%;padding: 5% 5%;}
+}
+@media only screen and (max-width:650px){
+	.footer-colum {    width: 50%;}
+	.footer-colum:first-child {    width:50%;}
+	.footer-colum:last-child {    width:50%;}
+	.footer_app{    margin-right: 0px;}
+}
+@media screen and (max-width: 580px){
+    .colum-eventes {width: 100%;}
+    .album-left {width: 40%;}
+    .album-right {width: 60%;}
+    .album-cover {width: 100%;height: auto;}
+    ul.popular-songs>li {width: 50%;}
+    a.top-menu-profile {font-size: 0;}
+    a.top-menu-profile>span.menu-profile-img {display: none;}
+    a.top-menu-profile i{font-size: 1.5rem;}
+    .login-box {width: 100%;}
+    .popup-container {height: 100%;width: 100%;margin: 0;border-radius: 0;}
+    a.popup-close {color: #333;background: transparent;font-size: 2rem;}
+    footer:before {display: none;}
+    .login-box{    padding: 0px 20px 20px 20px;}
+    p.login-right-msg{    margin-top: 20px;}
+    .edit-profile-devidor{    margin: 1rem 0 1rem;}
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{    padding-right: 10px;
+    padding-left: 10px;}
+    .custom-form .row [class^="col-"] { padding: 0px 9px;}
+    .register-box {width: 100%;}
+	.listpopulardiv .albumeach{    width: 47%;margin: 10px 5px;}
+	.listpopulardiv .albumeach:nth-child(odd){margin-right:0px}
+	.seacrhsubdivtitle{       width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+	.seacrhsubdivsearch{width: 98%;
+    margin: auto;}
+	.seacrhsubdivsearch .input-group .input-lg{    width: 75%;}
+	.seacrhsubdivsearch .input-group .input-group-append .input-group-text{    font-size: 14px;
+    padding: 9px 20px;}
+	.seacrhsubdiv{    margin-top: 20px;}
+	.seacrhsubdivtitle i {font-size: 28px;}
+	ul.serach-tab-menu{padding:0}
+	
+	.listpopulardiv .songsdiv .albumeach{    width: 31.5%;margin: 10px 5px;}
+	.listpopulardiv .songsdiv .albumeach:nth-child(3n+1){margin-right:0px}
+    .listpopulardiv .songsdiv .albumeach:nth-child(3n+2){margin-right:0px}
+    .analytic-uploaded-listing li {
+        padding: 15px;
+        width: 50%;
+    }
+	h1.banner-title{    font-size: 25px;}
+	.banner-content h2{    font-size: 20px;}
+	.banner-content{    padding: 3% 6%;}
+	.home_vote_section h3 em{    padding-bottom: 8px;}
+	.how_comp_blue{    overflow: hidden;}
+	.blue_img_div {    max-width: 250px;}
+}
+@media screen and (max-width: 480px) {
+    html, body {font-size: 14px;}
+    .btn-primary, .btn-default {font-size: 1.25rem;padding-left: 2rem;padding-right: 2rem;}
+    .search-section .form-control {height: calc(2.5rem + 2px);}
+    .profile-picture.edit {width: 7.8125rem;height: 7.8125rem;}
+    .peofile-picture-section.edit {margin-bottom: 1rem;}
+    .mb-1-mob {margin-bottom: 1rem !important;}
+    .song-upload-section-alb label.title {line-height: 3rem;font-size: 1.25rem;}
+    .form-control {height: calc(2rem + 8px);}
+    .cover-upload-block, .album-cover {margin: auto;margin-bottom: 1rem;}
+    .cover-upload-block > label {text-align: left;font-size: 1rem;margin-bottom: 0.5rem;}
+    .cover-upload-block label.cover-uploader {text-align: center;margin-bottom: 0;line-height: 2.25rem;}
+    .cover-upload-block label.cover-uploader, .alb-title-sec {width: 100%;}
+    .profile-dashboard-area.edit {padding-left: 15px;padding-right: 15px;}
+    .alb-page-heading {font-size: 1.5rem;line-height: 3rem;}
+    .album-cover {width: 100%;}
+    .album-cover-block {width: 8rem;padding: 0 5px;}
+    .album-cover-upload {width: calc(100% - 8rem);padding: 0 5px;}
+    .music-icon img {width: 20px;}
+    .progress-bar {height: 3px;}
+    .upload-progress {padding: 0.5rem 0;}
+    .btn-signin.d-inline-block {line-height: 40px;}
+    .fan-new-releases-album-ul li {width: 33.3%;}
+    .fan-profile-tab {width: 100%;}
+    .fan-profile-tab li {width: 50%;}
+    .fan-profile-tab li a {width: 100%;font-size: 1.15rem;}
+    /*By Apurba End 08/01/2019*/
+    .peofile-picture-section {left: 38%;top: -50px;}
+    .profile-picture {width: 110px;height: 110px;}
+    .otp-form-wraper {padding: 74px 90px 150px 90px;}
+    .artist-catagory-ul li {width: 100%;}
+    .video-upload-wraper {flex-wrap: wrap;justify-content: center;}
+    .video-upload-btn-para{text-align:center;}
+    .video-upload-wraper .video-upload-btn-container{text-align:center;}
+    .vid-colum {width: 100%;}
+    .album-left {width: 100%;}
+    .album-right {width: 100%;}
+    /*.album-cover {width: 40%;height: auto;}*/
+    ul.popular-songs>li {width: 100%;}
+    ul.serach-tab-menu>li>a {font-size: 13px;padding: 0 7px;}
+    .mobile-bg {background: #4e4090;padding: 0 10px;}
+    .mobile-bg .btn-transparent{color:#4e4090;background:#fff;border-color:#fff;}
+    .mobile-bg ul.main-search-menu>li>a{padding:5px 15px;color:#fff;line-height:initial;font-size: 1.875rem;}
+    .mobile-bg ul.main-search-menu>li:hover>a, ul.main-search-menu>li.active>a {}
+    .mobile-bg ul.main-search-menu{justify-content: space-around;padding-top: 0;margin-bottom:0;}
+    .mobile-bg ul.main-search-menu>li>a>i {display: none;}
+    .mobile-search-tab-menu{padding: 15px !important;justify-content: space-around !important;box-shadow: 0px 3px 15px #efeeee;}
+    .mobile-search-tab-menu li a{line-height: inherit !important;text-align:center !important;opacity:0.5;}
+    .mobile-search-tab-menu li a i{display:block;font-size:18px;}
+    ul.serach-tab-menu.mobile-search-tab-menu>li:hover>a, ul.serach-tab-menu.mobile-search-tab-menu>li.active>a {color: #4e3f90;background-color:transparent !important;opacity:1;}
+    .mobile-popular-song li{width:33.33% !important;}
+    ul.popular-songs>li>a>span.image {height: 110px;width: 110px;}
+    ul.popular-songs>li>a>span.name{margin-top:7px;font-size: 0.85rem;}
+    ul.popular-songs>li>a{padding:10px 5px 0px;line-height: 1.25rem;}
+    ul.popular-songs>li>a>span.image {height: 110px;width: 110px;}
+    ul.popular-songs {margin: 0 -15px;}
+    .profile-right-section-edit.songs {margin: 0px -8px;}
+	.player-media-object{height:auto !important;padding:5px 0px;border: none !important;}
+	.current-track-info{width: 96% !important;float:none !important;/* border: none !important; */margin: auto;}
+	.media.player-media-object img{display:none !important}
+	.player-control-wraper{width: 98% !important;float:none !important;}
+	.volume-div{display:none !important}
+	.controls-inner{display:block !important;width:100% !important}
+	.controls-inner .time-duration-wrap{display:block !important; width:100% !important}
+	.controls-inner{position:relative}
+	ul.more-control-list{position: absolute;
+    top: 4px;
+    right: -9px;}
+	.player-outer-wraper{padding-top:0px !important}
+	.current-track-info .playing-track-name{text-align: center !important;
+    text-transform: capitalize !important; }
+	.player-outer-wraper .col-12{padding:0}
+	.player-outer-wraper .col-lg-10{padding:0}
+	.album-img { max-height: 100px; min-width: 100px;}
+	.album-details-sec h2{font-size: 18px;}
+	.album-details-row .album-img img{max-width:100px}
+	.more-album-menu{bottom: -54px;}
+	.dynamic-action-list li a font{display:none}
+	.dynamic-action-list li a.sharelink{min-width: 0 ;padding: 6px 6px;}
+	.play-list-utility-sec ul li{margin-right: 5px;}
+	.dynamic-action-list li a.sharelink span{
+    margin-right: 0;
+    padding: 0px 5px 0px 1px;
+    /* margin-top: 14px; */
+}
+	.dynamic-action-list li a.sharelink span:before{
+    font-size: 16px;
+    /* margin-top: 5px; */
+}
+ul.main-search-menu>li{
+    padding: 2px;
+}
+ul.main-search-menu>li>a{padding: 8px 20px;}
+.search-container{flex-wrap: wrap;}
+.seacrhsubdivsearch .input-group {
+
+    width: 86%;
+}
+.profile-details-section .user-name{    font-size: 18px;}
+button.follow-btn {
+    height: 37px;
+   
+    font-size: 15px;
+   
+    min-width: 130px;
+}
+.fixed-header-wraper {
+    padding: 0;
+    min-height: 44px;
+}
+.playlistpage {
+    padding: 40px 0px 1px 0px;
+}
+.album-details-sec{    max-width: 260px;}
+.album-details-sec p.album-release-date,
+.album-details-sec p.album-creation{font-size:12px}
+.track-row{    flex-wrap: wrap;}
+.track-action-box{width: 100%;}
+.track-action-box ul{    width: 100%;    justify-content: flex-end;}
+.play-list-utility-sec ul.open{display:inline !important}
+.play-list-utility-sec ul li button{padding: 8px 15px;}
+.play-list-utility-sec{    padding-bottom: 10px;}
+.rank-row{flex-wrap: wrap;}
+.rank-row .rank-block{    width: 100%;}
+
+    .contestPositions .list{padding: 10px;}
+    .contestPositions .list .bx{padding: 0 0 0 38px;}
+    .contestPositions .list .pos-no{font-size: 26px;line-height: 30px;width: 32px;}
+    .contestPositions .list .u-photo{width: 48px;height: 48px;}
+    .contestPositions .list .cont{padding: 0 0 0 54px;min-height: 48px;}
+    .contestPositions .list .t{font-size: 15px;line-height: 19px;margin:0 0 6px 0;}
+    .progressCont{padding: 0 50px 0 0;}
+    .contestPositions .list .progress-status{font-size: 12px;line-height: 18px;width: 46px;}
+    .contestPositions .list .progress,
+    .contestPositions .list .progress .progress-bar{height:12px;}
+    .contest-time-dv h3 {
+        font-size: 25px;
+        margin: 0px 0 17px 0;
+    }
+    .time-listing li span {
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+    .contest-time-dv h3 {
+        font-size: 18px;
+        margin: 0px 0 3px 0;
+    }
+    .progressbar-wrap .progress{
+        height: 17px;
+    }
+    .position-person .person-img {
+        width: 51px;
+        height: 51px;
+    }
+    .person-progress-container {
+        width: calc(100% - 51px);
+    }
+    .analytic-position-list li .position {
+        width: 32px;
+        font-size: 19px;
+        color: #251d50;
+    }
+    .position-person {
+        width: calc(100% - 32px);
+    }
+	.home_vote_section_each{     width: 100%;    max-width: 300px;    margin: 10px auto; }
+	.home_vote_section_each img{  }
+	.fan_favourite .fan_favourite_screen .fan_favourite_screen_each{ width: 100%;    max-width: 300px;    margin: 10px auto;}
+	.homegb_new {    background-size: 100% 350px,100% 1000px;}
+	.member_section h4{    margin-bottom: 20px;    margin-top: 40px;}
+	.how_competition_work_top{    padding-top: 50px;}
+	.how_competition_work_top .second_section .right_part ul li{    padding-bottom: 15px;}
+	.how_comp_blue h3{    margin-bottom: 25px;}
+	.blue_img_div {    max-width: 350px;    margin: auto;}
+	.blue_img_div:after{    right: -33px;    top: -54px;    z-index: -1;    transform: rotate(89deg) translateX(66%);}
+	.how_comp_blue .time_div {    margin: 20px auto;}
+	.how_comp_blue .blue_right_text ul li{padding: 5px 0px;display:block;padding-left: 38px;}
+	.how_comp_bottom .number_div ul li { margin-right: 22px;}
+	.how_competition_work_top .second_section .right_part h2{    margin-bottom: 20px;}
+	.footer-colum {    width: 100%;}
+	.footer-colum:first-child {    width:100%;}
+	.footer-colum:last-child {    width:100%;}
+	footer{    padding-top: 3rem;}
+	nav.footer-bottom-menu>ul>li>a{    padding: 0 12px;}
+}
+@media screen and (max-width: 420px) {
+    footer {padding-top: 2rem;}
+    footer:after {top: 6.25rem;}
+    .login-section .container {padding: 0 20px;}
+    .btn-join {padding: 0 30px;}
+    .register-left, .register-right {padding: 60px 30px;}
+    .album-ul li{width:50%;}
+    .otp-form-wraper {padding: 75px 20px;}
+    .otp-page-heading img{width:100px;}
+    .radio-div{margin-bottom:25px;margin-top:25px;}
+    .vid-card-acc span {display: none;}
+    .vid-card-acc>i {display: block;line-height: 1.875rem;margin: 0;}
+    .vid-card-head h3.vid-card-title {font-size: 1.2rem;}
+    .name-progress-size span.title {font-size: 0.75rem;}
+    .cover-upload-block {text-align: center;}
+    ul.music-share>li>a {font-size: 1.5rem;height: 3rem;width: 3rem;line-height: 3rem;}
+	.view-play-list{    margin-bottom: 0px;}
+	.track-icon-box{    width: 100px;}
+	.track-information{max-width: calc(100% - 100px);}
+	.track-information .track-name{width: 80%;}
+	.track-information .artist-name{display:none}
+	.track-icon-box label.track-row-check{margin: 6px 10px 0px 10px;}
+	.btn-check{min-width:100px;    padding: 8px 15px;}
+	.dynamic-action-list li a{min-width:100px;    padding: 8px 15px;}
+	.play-list-utility-sec ul{    padding-bottom: 3px;}
+	.play-list-utility-sec ul li{margin-bottom: 2px;}
+}
+@media only screen and (max-width:375px){
+    .mobile-bg ul.main-search-menu>li>a {font-size: 1.5rem;}
+    html, body {font-size: 14px !important;}
+    .peofile-picture-section {left: 34%;top: -50px;}
+    .artist-sign-up-wraper {padding: 30px 30px;}
+    .social-channel-div .channel-link {margin: 13px 0 10px 0;min-width: 135px;}
+    ul.music-share>li {padding: 0 3px;}
+    ul.music-share>li>a {font-size: 1.5rem;height: 3rem;width: 3rem;line-height: 3rem;}
+    .analytic-uploaded-listing li {
+        width: 100%;
+    }
+    .analytic-uploaded-listing {
+        margin: 15px 0;
+        flex-wrap: wrap;
+    }
+    .analytic-uploaded-listing li {
+        padding: 6px 15px;
+    }
+}
+@media only screen and (max-width:350px){
+    ul.popular-songs>li>a>span.image {height: 70px;width: 70px;}
+    ul.music-share>li>label>i {font-size: 1.5rem;height: 3.5rem;width: 3.5rem;line-height: 3.5rem;}
+}

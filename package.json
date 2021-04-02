@@ -1,0 +1,67 @@
+{
+  "name": "miv-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@liripeng/vue-audio-player": "^1.0.2",
+    "axios": "^0.18.0",
+    "hls.js": "^0.12.2",
+    "howler": "^2.1.1",
+    "image-compressor.js": "^1.1.4",
+    "lodash": "^4.17.11",
+    "luxon": "^1.8.2",
+    "moment": "^2.22.2",
+    "register-service-worker": "^1.5.2",
+    "vee-validate": "^2.1.4",
+    "vue": "^2.5.17",
+    "vue-aplayer": "^1.6.1",
+    "vue-audio-visualizer": "^0.1.12",
+    "vue-clickaway": "^2.2.2",
+    "vue-cropperjs": "^4.0.0",
+    "vue-datetime": "^1.0.0-beta.8",
+    "vue-google-autocomplete": "^1.1.0",
+    "vue-head": "^2.1.1",
+    "vue-infinite-loading": "^2.4.3",
+    "vue-loading-overlay": "^3.1.1",
+    "vue-meta": "^1.6.0",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.0.1",
+    "vue-social-sharing": "^2.4.3",
+    "vue-stripe-elements-plus": "^0.2.9",
+    "vue-toast-notification": "^0.4.1",
+    "vue-transmit": "^8.1.4",
+    "vue-video-player": "^5.0.2",
+    "vue2-dropzone": "^3.5.2",
+    "vuedraggable": "^2.20.0",
+    "vuex": "^3.0.1",
+    "weekstart": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-pwa": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.30.0",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "size-limit": {
+    "path": "./src/main.js",
+    "webpack": false
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
