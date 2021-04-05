@@ -77,114 +77,113 @@
 </template>
 
 <script>
-
 import AppHeader from "@/components/UnauthHeader.vue";
-import {
-  API
-} from "@/api/api";
-import axios from 'axios';
+import { API } from "@/api/api";
+import axios from "axios";
 import AppFooter from "@/components/ComonFotter.vue";
-import router from '../router'
+import router from "../router";
 export default {
-  name: 'Login',
+  name: "Login",
   props: {
-    msg: String
+    msg: String,
   },
-   components: {
+  components: {
     AppHeader,
-    AppFooter
+    AppFooter,
   },
-   data() {
-      return {
-		  logindata:{	email:"",
-			password:"",
-			deviceType:"W",
-			deviceId:"",
-			fcmToken:""
-
-
-			},
-			error:false,
-			errormessage:""
-		  
-      };
-	},
-	methods: {
-		validateBeforeSubmit(){
-					  this. error= false;
-				this. errormessage = "";
-				localStorage.setItem("userEmail",this.logindata.email);
-			  this.$validator.validateAll().then(result => {
-          if (result) {
-				
-			  API.post("login",  this.logindata)
-      .then(response => {
-       
-        if (response.data) {
-          console.log(response.data);
-					localStorage.setItem("User",JSON.stringify(response.data.user));
-					if(response.data.user.userType == 2) {
-						localStorage.setItem("contestMusicCount",JSON.stringify(response.data.contestMusicCount));
-					}
-						localStorage.setItem("UserType",JSON.stringify(response.data.user.userType));
-					localStorage.setItem("Token",JSON.stringify(response.data.accessToken));
-					if(JSON.parse(localStorage.getItem("User")).userType=="2"){
-						if(response.data.contestMusicCount == 0) {
-							router.push({
-								name: "contestMusic"
-							});
-						} else {
-							router.push({
-								name: "FanProfile"
-							});
-						 }
-
-					}
-					else{
-						router.push({
-                name: "ArtistProfile"
-              });
-					}
-         
+  data() {
+    return {
+      logindata: {
+        email: "",
+        password: "",
+        deviceType: "W",
+        deviceId: "",
+        fcmToken: "",
+      },
+      error: false,
+      errormessage: "",
+    };
+  },
+  methods: {
+    validateBeforeSubmit() {
+      this.error = false;
+      this.errormessage = "";
+      localStorage.setItem("userEmail", this.logindata.email);
+      this.$validator.validateAll().then((result) => {
+        if (result) {
+          API.post("login", this.logindata)
+            .then((response) => {
+              if (response.data) {
+                console.log(response.data);
+                localStorage.setItem(
+                  "User",
+                  JSON.stringify(response.data.user)
+                );
+                if (response.data.user.userType == 2) {
+                  localStorage.setItem(
+                    "contestMusicCount",
+                    JSON.stringify(response.data.contestMusicCount)
+                  );
+                }
+                localStorage.setItem(
+                  "UserType",
+                  JSON.stringify(response.data.user.userType)
+                );
+                localStorage.setItem(
+                  "Token",
+                  JSON.stringify(response.data.accessToken)
+                );
+                if (JSON.parse(localStorage.getItem("User")).userType == "2") {
+                  if (response.data.contestMusicCount == 0) {
+                    router.push({
+                      name: "FanProfile",
+                    });
+                  } else {
+                    router.push({
+                      name: "FanProfile",
+                    });
+                  }
+                } else {
+                  router.push({
+                    name: "ArtistProfile",
+                  });
+                }
+              }
+            })
+            .catch((error) => {
+              if (error.response.status === 400) {
+                if (error.response.data.errors[0].otpPending) {
+                  router.push({ name: "FanRegisterOtp" });
+                  this.$store.state.isOtpPresent = true;
+                }
+              }
+              let data = error.response.data.errors;
+              console.log(data);
+              this.error = true;
+              this.errormessage = data[0].msg;
+            });
         }
-      })
-      .catch(error => {
-				 if(error.response.status === 400) {
-					 if(error.response.data.errors[0].otpPending) {
-							router.push({name: "FanRegisterOtp"});
-							 this.$store.state.isOtpPresent = true;
-					 }
-				 }
-				let data = error.response.data.errors;
-        console.log(data);
-        this. error= true;
-        this. errormessage = data[0].msg;
-       
       });
-				  
-               
-		  }
-		  });
-		},
-		showmodal(){
-			this.$store.commit("showmodal");
-		}
-	},
-	created(){
-			axios.get('https://api.ipify.org?format=json')
-.catch(err=>{
-  console.log(err);
-})
-.then(response=>{
-  if(response) {
-		console.log(response);
-		this.logindata.deviceId = response.data.ip;
-		this.logindata.fcmToken =  response.data.ip;
-	}
-	})
-
-	}
-}
+    },
+    showmodal() {
+      this.$store.commit("showmodal");
+    },
+  },
+  created() {
+    axios
+      .get("https://api.ipify.org?format=json")
+      .catch((err) => {
+        console.log(err);
+      })
+      .then((response) => {
+        if (response) {
+          console.log(response);
+          this.logindata.deviceId = response.data.ip;
+          this.logindata.fcmToken = response.data.ip;
+        }
+      });
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

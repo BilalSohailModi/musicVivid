@@ -566,7 +566,7 @@ export default new Router({
           window.location.href = "/login";
         }
         if (JSON.parse(localStorage.getItem("User")).userType == "2") {
-          next();
+          next({ path: "/fan-profile" });
         } else {
           next({ path: "/fan-profile" });
         }

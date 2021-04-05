@@ -13,11 +13,11 @@
           <div class="box-model-wraper" style="background-color: white">
             <div class="profile-header">
               <div class="profile-banner">
-                <!-- <img
+                <img
                   v-if="coverpictur == 1"
-                  src="/assets/images/Profile-banner2.png"
+                  src="/assets/images/Spinner.gif"
                   alt
-                /> -->
+                />
                 <img
                   v-if="coverpictur == null"
                   src="/assets/images/Profile-banner.png"
