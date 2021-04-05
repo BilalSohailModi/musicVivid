@@ -310,7 +310,7 @@ body.inner-page {
   background: #fff;
 }
 .container-fluid {
-  max-width: 1900px;
+  max-width: 2000px;
   margin: auto;
 }
 .homegb {
@@ -1295,7 +1295,6 @@ ul.step > li.active {
 }
 
 .box-model-wraper.edit .profile-details-section {
-  width: 100%;
   box-shadow: none;
 }
 

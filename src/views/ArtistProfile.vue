@@ -13,17 +13,18 @@
           <div class="box-model-wraper" style="background-color: white">
             <div class="profile-header">
               <div class="profile-banner">
-                <img
+                <!-- <img
                   v-if="coverpictur == 1"
                   src="/assets/images/Profile-banner2.png"
                   alt
-                />
+                /> -->
                 <img
                   v-if="coverpictur == null"
                   src="/assets/images/Profile-banner.png"
                   alt
                 />
                 <img v-else :src="coverpictur" alt />
+
                 <div class="profile-banner-uploader">
                   <label class="" v-if="coverpictur == null">
                     <input

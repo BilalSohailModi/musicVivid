@@ -13,6 +13,51 @@
         <div class="container-fluid">
           <div class="box-model-wraper">
             <div class="profile-header">
+              <div class="profile-banner">
+                <img
+                  v-if="coverpictur == 1"
+                  src="/assets/images/Spinner.gif"
+                  alt
+                />
+                <img
+                  v-if="coverpictur == null"
+                  src="/assets/images/Profile-banner.png"
+                  alt
+                />
+                <img v-else :src="coverpictur" alt />
+                <div class="profile-banner-uploader">
+                  <label class="" v-if="coverpictur == null">
+                    <input
+                      type="file"
+                      ref="imageUploader"
+                      @click="resetImageUploader"
+                      @change="upDatecover($event)"
+                    />
+                    <i class="icon-photo-camera"></i>
+                  </label>
+                </div>
+
+                <div v-if="coverpictur">
+                  <label for="file" class="upload-select"></label>
+                  <input
+                    type="file"
+                    id="file"
+                    ref="imageUploader"
+                    @click="resetImageUploader"
+                    @change="upDatecover($event)"
+                    accept="image/*"
+                    hidden
+                  />
+                </div>
+
+                <!-- <div class="profile-banner-uploader">
+							
+							<label class="">
+								<input type="file"  @change="upDatecover($event.target.name, $event.target.files)"/>
+								<i class="icon-photo-camera"></i>
+							</label>
+                </div>-->
+              </div>
               <!-- Profile details -->
               <div class="profile-details-section">
                 <div class="peofile-picture-section">
